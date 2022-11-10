@@ -100,7 +100,7 @@ ul a {
     padding-bottom: 150px;
 }
 
-#calltoactiontext{
+#herotext{
     color: #1F2937;
     font-size: 36px;
     font-weight: bold;
@@ -191,6 +191,52 @@ ul a {
     margin-bottom: 150px;
     margin-left: auto;
     margin-right: 300px;
+}
 
+.fourbox{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+}
+
+.calltoactiontexts{
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+}
+
+.calltoactionfirstext{
+    font-weight: 800;
+    font-size: 20px;
+}
+.calltoactionsecondtext{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.calltoactionbox{
+    display: flex;
+    background-color: #3882f6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    gap: 150px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#signupbutton {
+    border-radius: 10px;
+    border-color: white;
+    background-color: #3882f6;
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    width: 120px;
+    height: 30px;
 }
 
